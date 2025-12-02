@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch>=2.6.0
+torchvision>=0.21.0
+ultralytics>=8.2.0
+opencv-python
+numpy
+pillow
+easyocr
+lapx
+filterpy
+pyqt5
+mss
+# ByteTrack é implementado localmente em `src/tracker.py`, sem pacote extra necessário.

@@ -218,18 +218,18 @@ SHOW_CONFIDENCE = True       # Mostrar porcentagem de confiança
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 M4/
-├── 📄 main.py              # Ponto de entrada da aplicação
-├── 📄 setup.bat            # Script de instalação
-├── 📄 run.bat              # Script de execução
-├── 📄 download-models.bat  # Download dos modelos
-├── 📄 requirements.txt     # Dependências Python
-├── 📄 README.md            # Esta documentação
+├──  main.py              # Ponto de entrada da aplicação
+├──  setup.bat            # Script de instalação
+├──  run.bat              # Script de execução
+├──  download-models.bat  # Download dos modelos
+├──  requirements.txt     # Dependências Python
+├──  README.md            # Esta documentação
 │
-├── 📁 src/                 # Código fonte
+├── src/                 # Código fonte
 │   ├── config.py           # Configurações do sistema
 │   ├── data_structures.py  # Estruturas de dados
 │   ├── device.py           # Detecção de GPU/CPU
@@ -240,17 +240,17 @@ M4/
 │   ├── tracker.py          # Rastreamento de veículos
 │   └── ui.py               # Interface gráfica
 │
-├── 📁 models/              # Modelos de IA
+├── models/              # Modelos de IA
 │   ├── yolo11n.pt          # YOLO Nano (veículos)
 │   ├── yolo11s.pt          # YOLO Small (veículos)
 │   ├── license-plate-v1n.pt # Placas Nano
 │   ├── license-plate-v1s.pt # Placas Small
 │   └── license-plate-v1x.pt # Placas Extra-Large
 │
-├── 📁 logs/                # Logs de detecção
+├── logs/                # Logs de detecção
 │   └── detections.csv      # Registro de placas detectadas
 │
-└── 📁 venv/                # Ambiente virtual Python (gerado)
+└── venv/                # Ambiente virtual Python (gerado)
 ```
 
 ---
@@ -344,18 +344,3 @@ GPU: NVIDIA GeForce GTX 1650
 ## 📝 Licença
 
 Este projeto foi desenvolvido para fins educacionais na disciplina de Inteligência Artificial II.
-
----
-
-## 👥 Autores
-
-Desenvolvido por estudantes da faculdade como projeto do Módulo 4.
-
----
-
-## 🙏 Agradecimentos
-
-- [Ultralytics](https://github.com/ultralytics/ultralytics) - YOLO11
-- [JaidedAI](https://github.com/JaidedAI/EasyOCR) - EasyOCR
-- [PyTorch](https://pytorch.org/) - Framework de Deep Learning
-- [HuggingFace](https://huggingface.co/morsetechlab/yolov11-license-plate-detection) - Modelos de placas

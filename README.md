@@ -77,8 +77,8 @@ Se não tiver Python 3.11, baixe em: https://www.python.org/downloads/release/py
 
 ```powershell
 # Se estiver usando Git
-git clone <url-do-repositorio>
-cd M4
+git clone https://github.com/Battisti-Daniel/M3_IA.git
+cd Trabalho_M3
 ```
 
 Ou baixe o ZIP e extraia na pasta desejada.
